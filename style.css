@@ -3,6 +3,7 @@
 /* PALETTE */
 :root {
   --light-primary: #eee;
+  --light-secondary: #ccc;
   --dark-primary: #222;
   --dark-secondary: #333;
   --green: #60b347;
@@ -111,7 +112,7 @@ h1 {
 }
 
 .btn:hover {
-  background-color: var(--dark-secondary);
+  background-color: var(--light-secondary);
 }
 
 .message {
